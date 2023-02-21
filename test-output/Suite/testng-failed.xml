@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <listeners>
+    <listener class-name="listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="AddCustomer(failed)">
+    <classes>
+      <class name="testcases.AddCustomerTest">
+        <methods>
+          <include name="addCustomer" invocation-numbers="1"/>
+          <include name="context"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="excelFileSetup"/>
+        </methods>
+      </class> <!-- testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- AddCustomer(failed) -->
+  <test thread-count="5" name="OpenAccount(failed)">
+    <classes>
+      <class name="testcases.OpenAccountTest">
+        <methods>
+          <include name="openAccount" invocation-numbers="0 1 2"/>
+          <include name="context"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="excelFileSetup"/>
+        </methods>
+      </class> <!-- testcases.OpenAccountTest -->
+    </classes>
+  </test> <!-- OpenAccount(failed) -->
+</suite> <!-- Failed suite [Suite] -->

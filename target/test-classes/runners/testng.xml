@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browser" value="edge"></parameter>
+	<listeners>
+		<listener class-name="listeners.CustomListeners" />
+	</listeners>
+	<test name="LoginTest">
+		<classes>
+			<class name="testcases.LoginTest" />
+		</classes>
+	</test>
+	<!-- Test -->
+	<test name="AddCustomer">
+		<classes>
+			<class name="testcases.AddCustomerTest" />
+		</classes>
+	</test>
+	<test name="OpenAccount">
+		<classes>
+			<class name="testcases.OpenAccountTest" />
+		</classes>
+	</test>
+</suite> <!--  -->

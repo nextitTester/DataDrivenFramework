@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="loginTest"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="2"
+           time="1.031">
+  <properties />
+            <testcase name="setUp" time="1.031" classname="testcases.LoginTest">
+                <failure type="java.lang.NoSuchMethodError"
+                  message="&apos;com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)&apos;"
+              >
+<![CDATA[java.lang.NoSuchMethodError: 'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'
+  org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+  org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:99)
+  org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:94)
+  org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+  org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+  base.TestBase.setUp(TestBase.java:64)
+  java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+  java.base/java.lang.reflect.Method.invoke(Method.java:578)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+  org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+  org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+  org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+  org.testng.TestRunner.beforeRun(TestRunner.java:633)
+  org.testng.TestRunner.run(TestRunner.java:595)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+  org.testng.SuiteRunner.run(SuiteRunner.java:330)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+  org.testng.TestNG.runSuites(TestNG.java:1099)
+  org.testng.TestNG.run(TestNG.java:1067)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="tearDown" time="0.0" classname="testcases.LoginTest">
+          <skipped />
+    </testcase>
+            <testcase name="managerLogin" time="0.0" classname="testcases.LoginTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
