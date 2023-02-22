@@ -6,3 +6,4 @@ practice\Test.class
 testcases\LoginTest.class
 listeners\ExtentReportGenerator.class
 testcases\AddCustomerTest.class
+base\TestBase2.class

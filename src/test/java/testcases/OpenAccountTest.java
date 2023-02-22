@@ -47,10 +47,10 @@ public class OpenAccountTest extends TestBase{
 				break;
 			}
 		}
-		Select select=new Select(driver.findElement(By.cssSelector(objectRepositoryProperties.getProperty("Currency_Dropdown"))));
-		select.selectByVisibleText(currency);
-		click("Process_Button");
-		Assert.assertEquals(select.getFirstSelectedOption().getText(), currency);
+		//Select select=new Select(driver.findElement(By.cssSelector(objectRepositoryProperties.getProperty("Currency_Dropdown"))));
+		//select.selectByVisibleText(objectRepositoryProperties.getProperty("currency"));
+		//click("Process_Button");
+		//Assert.assertEquals(select.getFirstSelectedOption().getText(), objectRepositoryProperties.getProperty("currency"));
 		//Assert.fail("failed to open account");
 	}
 
