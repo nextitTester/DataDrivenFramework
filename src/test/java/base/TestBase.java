@@ -125,7 +125,10 @@ public class TestBase {
 	public void excelFileSetup() throws IOException {
 		
 		
-		System.out.println(System.getenv("Browser"));
+		System.out.println("------------------"+System.getenv("Browser"));
+		
+		
+		
 		file=new File(System.getProperty("user.dir")+"\\src\\test\\resources\\excel\\testdata.xlsx");
 		fileInputStream=new FileInputStream(file);
 		workbook=new XSSFWorkbook(fileInputStream);
